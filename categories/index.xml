@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on SakuraSenの个人博客</title>
+        <link>https://badsen.cn/categories/</link>
+        <description>Recent content in Categories on SakuraSenの个人博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 12 Jan 2023 10:00:25 +0800</lastBuildDate><atom:link href="https://badsen.cn/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>日常</title>
+        <link>https://badsen.cn/categories/%E6%97%A5%E5%B8%B8/</link>
+        <pubDate>Thu, 12 Jan 2023 10:00:25 +0800</pubDate>
+        
+        <guid>https://badsen.cn/categories/%E6%97%A5%E5%B8%B8/</guid>
+        <description>&lt;img src="https://cdn.oss.badsen.cn/update/YS~B%60C3EB4%7BFJ9HN_$5S9QK.gif" alt="Featured image of post 日常" /&gt;</description>
+        </item>
+        <item>
+        <title>教程</title>
+        <link>https://badsen.cn/categories/%E6%95%99%E7%A8%8B/</link>
+        <pubDate>Fri, 06 Jan 2023 07:23:44 +0800</pubDate>
+        
+        <guid>https://badsen.cn/categories/%E6%95%99%E7%A8%8B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>资源分享</title>
+        <link>https://badsen.cn/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/</link>
+        <pubDate>Wed, 04 Jan 2023 01:18:27 +0800</pubDate>
+        
+        <guid>https://badsen.cn/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

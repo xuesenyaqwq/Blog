@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>SakuraSenの个人博客</title>
+        <link>https://badsen.cn/</link>
+        <description>Recent content on SakuraSenの个人博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 12 Jan 2023 10:00:25 +0800</lastBuildDate><atom:link href="https://badsen.cn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AMD牌水泥-SakuraSenの个人博客</title>
+        <link>https://badsen.cn/p/amd%E7%89%8C%E6%B0%B4%E6%B3%A5-sakurasen%E3%81%AE%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Thu, 12 Jan 2023 10:00:25 +0800</pubDate>
+        
+        <guid>https://badsen.cn/p/amd%E7%89%8C%E6%B0%B4%E6%B3%A5-sakurasen%E3%81%AE%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://cdn.oss.badsen.cn/update/IMG_20230109_123901.jpg" alt="Featured image of post AMD牌水泥-SakuraSenの个人博客" /&gt;&lt;h3 id=&#34;起因&#34;&gt;起因&lt;/h3&gt;
+&lt;p&gt;我在给服务器新装内存条的时候发现散热器挡着内存条的插口了，所以我打算把散热器拆下来，但是正当我准备把散热器拆下来的时候，散热器居然带着CPU一起下来了？！你没有听错！CPU带着散热器一起下来了！当时的CPU还是锁定的状态！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/IMG_20230109_123901.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;拔下来的CPU&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;然后&#34;&gt;然后&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;然后我怎么弄都弄不下来，我去哔哩哔哩搜，最后得到的答案都很不靠谱然后我自己想办法。&lt;/p&gt;
+&lt;p&gt;我拿了个尺子，然后用尺子横着顶着CPU，成功的把cpu推下来了！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/IMG_20230109_125950.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;推下来的CPU&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;最后&#34;&gt;最后&lt;/h3&gt;
+&lt;p&gt;我把CPU安到主板上，顺利的开机！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/IMG_20230109_130312.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;附上当时群聊记录：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/Screenshot_2023_0109_132337.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>森林(The Forest)服务器搭建</title>
+        <link>https://badsen.cn/p/%E6%A3%AE%E6%9E%97the-forest%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</link>
+        <pubDate>Fri, 06 Jan 2023 07:23:44 +0800</pubDate>
+        
+        <guid>https://badsen.cn/p/%E6%A3%AE%E6%9E%97the-forest%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</guid>
+        <description>&lt;img src="https://cdn.oss.badsen.cn/update/The-Forest-Cover.jpg" alt="Featured image of post 森林(The Forest)服务器搭建" /&gt;&lt;blockquote&gt;
+&lt;p&gt;注意，The Forest官方仅提供Windows Server的服务端，所以请使用Windows系统。
+若您为Linux，本教程并不适用您，请自行查找相关教程。
+本文参考内容：
+&lt;a class=&#34;link&#34; href=&#34;https://xiaoheihe.cn/community/1/list/81628576&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;森林云服务器搭建-小黑盒&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;环境准备&#34;&gt;环境准备🖥️&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Windows Server 2022&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 4G&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 4H&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开始-&#34;&gt;开始 🚀&lt;/h2&gt;
+&lt;h3 id=&#34;下载steamcmd&#34;&gt;下载SteamCMD&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果你开过一些v社的服务器，一定知道这个东西，这个东西我不过多描述了，大家自行搜索，就是一个steam的cmd版本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;下载地址&#34;&gt;下载地址&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安装-&#34;&gt;安装 ⏬&lt;/h2&gt;
+&lt;p&gt;解压后双击打开，等自动下载&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230106074343.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下载完后设置森林的目录&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;force_install_dir C:\theforest&lt;/code&gt;
+这里的&amp;quot;C:\theforest&amp;quot;是你的森林服务器目录&lt;/p&gt;
+&lt;p&gt;然后匿名登陆&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;login anonymous&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;登陆后就可以安装了&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;app_update 556450 validate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230106074709.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;安装成功后进入森林安装目录，也就是&lt;code&gt;C:\theforest&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;双击&lt;code&gt;TheForestDedicatedServer&lt;/code&gt;启动服务器&lt;/p&gt;
+&lt;p&gt;启动后会生成一个配置文件，在&lt;code&gt;C:\Users\Administrator\AppData\LocalLow\SKS\TheForestDedicatedServer\ds&lt;/code&gt;目录下&lt;/p&gt;
+&lt;p&gt;打开&lt;code&gt;Server.cfg&lt;/code&gt;来修改配置文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 76
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 77
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 78
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 79
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 80
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 81
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 82
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 83
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 84
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 85
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 86
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 87
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 88
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 89
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 90
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 91
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 92
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 93
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 94
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 95
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 96
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 97
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 98
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 99
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;100
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;101
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;102
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;103
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;104
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;105
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;106
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;107
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;108
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;109
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 专用服务器设置
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 服务器 IP 地址 - 注意：如果你正在使用路由器，那么这个地址就是你的内部 IP 地址，而且你还需要在路由器中设置端口转发
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverIP 192.168.1.47
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// Steam 通信端口 - 注意：如果你正在使用路由器，那么你需要在路由器中打开这个端口
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverSteamPort 8766
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 游戏 通信端口 - 注意：如果你正在使用路由器，那么你需要在路由器中打开这个端口
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverGamePort 27015
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 查询 通信端口 - 注意：如果你正在使用路由器，那么你需要在路由器中打开这个端口
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverQueryPort 27016
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 服务器显示的名字
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverName The Forest Game
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 最大玩家数量
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverPlayers 4
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;//开启 VAC - 服务器上的 Valve 反作弊系统。 必须设置为 off 或者 on
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;enableVAC off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 服务器密码 - 留空意味着没有密码
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverPassword
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 服务器管理员密码 - 留空意味着没有密码
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverPasswordAdmin
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 你的 Steam 账户名称 - 留空意味着使用匿名
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverSteamAccount
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 服务器自动存档的时间（以分钟为单位）- 最小值是 15 分钟，默认是 30 分钟
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverAutoSaveInterval 30
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 游戏难度模式 - 必须设置为 Peaceful，Normal 或者 Hard
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;difficulty Normal
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 重新开始或者继续游戏。必须设置为 New 或者 Continue。如果设置为 New，服务器将不会进行存档，那么你每次回到游戏都需要重头来过。
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;initType Continue
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 游戏存档的槽位 - 必须设置为 1，2，3，4 或者 5
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;slot 1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 显示日志. - 必须设置为 off 或者 on
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;showLogs off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 服务器管理员的邮件地址
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;serverContact email@gmail.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 极致的素食主义者模式 - 设置为 on 时，敌人将永远消失
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;veganMode off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 普通的素食主义者模式 - 设置为 on 时，敌人不会在白天出现
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vegetarianMode off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 加载存档的时候，重置所有的洞穴数据
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;resetHolesMode off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 人物睡觉时，树木会再生 10%
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;treeRegrowMode off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 允许建筑毁坏
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;allowBuildingDestruction on
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 在创造模式中允许敌人出现
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;allowEnemiesCreativeMode off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 允许客户端在控制台中使用内置命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;allowCheats off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 攻击其它玩家时，武器伤害为 100%
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;realisticPlayerDamage off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 允许为存档插槽设置自定义文件夹， 留空则使用默认位置
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;saveFolderPath
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 无客户端连接时，目标帧数
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;targetFpsIdle 5
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 至少有 1 个客户端连接时，目标帧数
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;targetFpsActive 60
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;当你设置完毕后 请在你的防火墙放行以下UDP端口:&lt;/p&gt;
+&lt;p&gt;8766,27015,27016&lt;/p&gt;
+&lt;p&gt;⚠️请放行udp端口而并非tcp端口⚠️&lt;/p&gt;
+&lt;p&gt;然后启动森林服务器，就可以在互联网上找到你的服务器了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>波奇酱动态鼠标指针-SakuraSenの个人博客</title>
+        <link>https://badsen.cn/p/%E6%B3%A2%E5%A5%87%E9%85%B1%E5%8A%A8%E6%80%81%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88-sakurasen%E3%81%AE%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Wed, 04 Jan 2023 01:18:27 +0800</pubDate>
+        
+        <guid>https://badsen.cn/p/%E6%B3%A2%E5%A5%87%E9%85%B1%E5%8A%A8%E6%80%81%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88-sakurasen%E3%81%AE%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://cdn.oss.badsen.cn/update/20230104012307.png" alt="Featured image of post 波奇酱动态鼠标指针-SakuraSenの个人博客" /&gt;&lt;blockquote&gt;
+&lt;p&gt;素材来源于网络，不进行任何盈利进行分享，若触犯原作者利益，请携带证明来联系。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;波奇酱鼠标指针&#34;&gt;波奇酱鼠标指针~&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230104012523.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;是动态的哦~&lt;/p&gt;
+&lt;h3 id=&#34;下载链接&#34;&gt;下载链接&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.badsen.cn/d/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/%E6%9D%82%E9%A1%B9/%E6%B3%A2%E5%A5%87%E9%85%B1%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88/%E6%B3%A2%E5%A5%87%E9%85%B1%E5%8A%A8%E6%80%81%E9%BC%A0%E6%A0%87.zip?sign=QN4Jp834cX3ZJ3wm5pf8ev-v12lxREQJ_uzw3zL0rys=:0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;本站网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://sakurasen.lanzouw.com/idNI10k1y3aj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝奏云盘&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>使用umami自建一个网站统计平台 - SakuraSenの个人博客</title>
+        <link>https://badsen.cn/p/%E4%BD%BF%E7%94%A8umami%E8%87%AA%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E5%B9%B3%E5%8F%B0-sakurasen%E3%81%AE%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Mon, 02 Jan 2023 09:09:27 +0800</pubDate>
+        
+        <guid>https://badsen.cn/p/%E4%BD%BF%E7%94%A8umami%E8%87%AA%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E5%B9%B3%E5%8F%B0-sakurasen%E3%81%AE%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://cdn.oss.badsen.cn/update/86589143_p0_master1200.jpg" alt="Featured image of post 使用umami自建一个网站统计平台 - SakuraSenの个人博客" /&gt;&lt;h2 id=&#34;umami是什么&#34;&gt;umami是什么❔&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.is/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;umami&lt;/a&gt;是一款可以自行搭建的网站统计平台，可以记录用户来源与用户地区，以及每日在线人数，每个网页的浏览数量，并且它&lt;strong&gt;支持中文&lt;/strong&gt;以及完全开源。
+&lt;img src=&#34;https://umami.is/images/about-screenshot.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;准备-&#34;&gt;准备 ❇️&lt;/h2&gt;
+&lt;p&gt;以下是我所准备的环境&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Node.js v16.18.1 (官方推荐v14以上)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 宝塔面板&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; MySQL数据库&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Postgres数据库&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Docker安装&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 非Docker安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果您不使用宝塔面板，那么说明您已经是一个熟练的Linux用户了，请您爬去自行查看文档 &lt;a class=&#34;link&#34; href=&#34;https://umami.is/docs/install&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;umami官方install文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;开始安装&#34;&gt;开始安装🚀&lt;/h2&gt;
+&lt;h4 id=&#34;安装yarn&#34;&gt;安装yarn&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;npm install -g yarn&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;若您没有npm，请先执行&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yum install nodejs&lt;/code&gt;来安装nodejs&lt;/p&gt;
+&lt;h4 id=&#34;创建目录&#34;&gt;创建目录&lt;/h4&gt;
+&lt;p&gt;我们需要创建一个目录来存放umami文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir /umami
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd /umami
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;克隆仓库&#34;&gt;克隆仓库&lt;/h4&gt;
+&lt;p&gt;将umami的源代码克隆下来&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git clone https://github.com/umami-software/umami.git&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;编译umami&#34;&gt;编译umami&lt;/h4&gt;
+&lt;p&gt;进入umami目录&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cd umami&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;安装软件包&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yarn install&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;新建一个文件，名为 &lt;strong&gt;.env&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nano .env&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;写入以下内容：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DATABASE_URL=mysql://数据库用户名:数据库密码@localhost:3306/数据库名
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;若你的数据库为Postgresql，则写入
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DATABASE_URL=postgresql://数据库用户名:数据库密码@localhost:5432/数据库名
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后输入&lt;code&gt;yarn build&lt;/code&gt;开始构建&lt;/p&gt;
+&lt;h4 id=&#34;创建管理员账户&#34;&gt;创建管理员账户&lt;/h4&gt;
+&lt;p&gt;输入&lt;code&gt;yarn update-db&lt;/code&gt;指令来创建默认一个管理员用户&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;此默认管理员用户账号密码为admin和umami&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;然后我们可以输入&lt;code&gt;yarn start&lt;/code&gt;来启动umami&lt;/p&gt;
+&lt;p&gt;这时候访问你的IP+3000端口就可以访问了，但是我们还需要配置反向代理才可以不加端口访问。&lt;/p&gt;
+&lt;h4 id=&#34;配置反向代理&#34;&gt;配置反向代理&lt;/h4&gt;
+&lt;p&gt;在你的宝塔面板来设置
+&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230102102826.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+点击保存后就可以了，这时候访问你的网站就可以进入登陆界面了&lt;/p&gt;
+&lt;h4 id=&#34;修改密码&#34;&gt;修改密码&lt;/h4&gt;
+&lt;p&gt;输入账号密码admin和umami
+这时候你可以更新以下密码&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230102102503.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;添加网站&#34;&gt;添加网站&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230102103120.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+输入网站名字和域名(域名要小写)&lt;/p&gt;
+&lt;h4 id=&#34;添加代码&#34;&gt;添加代码&lt;/h4&gt;
+&lt;p&gt;然后复制网站代码
+&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230102103325.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+将网站代码添加到你的网站中，你可以放在head或者footer，只要能保证用户在加载网站时加载这个代码就行&lt;/p&gt;
+&lt;p&gt;我这边将代码放在head中：
+&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230102103551.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;放完后重新加载网站就能看到效果了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.oss.badsen.cn/update/20230102103729.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;开机自启&#34;&gt;开机自启&lt;/h4&gt;
+&lt;p&gt;在我们使用的时候，可以用&lt;code&gt;screen&lt;/code&gt;来进行后台运行，但是服务器重启后需要手动打开，官方文档给出的解决方案是“使用pm2管理器“&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;安装pm2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yarn global add pm2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;！！！以下指令要在umami目录下执行！！！
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pm2 start yarn --name umami -- start
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pm2 startup
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pm2 save
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;输入和umami就在后台运行了，开机也会自动启动。&lt;/p&gt;
+&lt;h2 id=&#34;结束语&#34;&gt;结束语&lt;/h2&gt;
+&lt;p&gt;教程到此结束，谢谢你的阅读~ 希望此文章对你有用&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>第一篇文章</title>
+        <link>https://badsen.cn/p/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+        <pubDate>Mon, 02 Jan 2023 03:01:19 +0800</pubDate>
+        
+        <guid>https://badsen.cn/p/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+        <description>&lt;img src="https://cdn.oss.badsen.cn/update/102826029_p0.png" alt="Featured image of post 第一篇文章" /&gt;&lt;h1 id=&#34;这是我的第一篇文章&#34;&gt;这是我的第一篇文章&lt;/h1&gt;
+&lt;p&gt;最近把博客从WordPress改为hugo了，感觉&amp;hellip;还不错？&lt;/p&gt;
+&lt;h3 id=&#34;为什么更换&#34;&gt;为什么更换？&lt;/h3&gt;
+&lt;p&gt;起因是我看到其他博客的这个主题很好看，于是我就收藏了起来，今天想着给博客换个主题，结果没想到这个主题不是WordPress的，它是Hugo的主题，目前使用还是很舒服的。&lt;/p&gt;
+&lt;h3 id=&#34;变化&#34;&gt;变化&lt;/h3&gt;
+&lt;p&gt;变化还是蛮大的，脱离了WordPress写博客变得不那么方便了，以前写博客只需要去WordPress的后台管理就行，但是Hugo并没有后台管理，所以所有的文章都是需要在网站根目录新建md文件，然后写完再用hugo构建为静态网站，但是我还是可以接受的，脱离了WordPress框架，整个网站变得轻量化了:D&lt;/p&gt;
+&lt;h3 id=&#34;以前的文章&#34;&gt;以前的文章&lt;/h3&gt;
+&lt;p&gt;以前的文章只能作废了QAQ，红豆泥私密马赛！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://badsen.cn/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://badsen.cn/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://badsen.cn/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://badsen.cn/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;h3 id=&#34;关于我&#34;&gt;关于我&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你是？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我是SakuraSen，樱花森，Badsen，森。&lt;/p&gt;
+&lt;p&gt;目前为本网站的站长，&lt;a class=&#34;link&#34; href=&#34;https://yzhserver.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YzhServer&lt;/a&gt;的创始人。&lt;/p&gt;
+&lt;h3 id=&#34;关于游戏&#34;&gt;关于游戏&lt;/h3&gt;
+&lt;h4 id=&#34;外挂风云5&#34;&gt;外挂风云5&lt;/h4&gt;
+&lt;iframe src=&#34;https://widgets.gametools.network/stats/pc/name/SakuraSenQAQ/bfv/zh-CN/50&#34;height=&#34;380px&#34;width=&#34;600px&#34;frameborder=&#34;0&#34;allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;hypixel&#34;&gt;Hypixel&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://hypixel.paniek.de/signature/5465f902-22d3-46dd-9ee9-5f352c4d73f8/general-small&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://badsen.cn/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://badsen.cn/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友情链接</title>
+        <link>https://badsen.cn/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://badsen.cn/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
+        <description>&lt;h3 id=&#34;申请友情链接&#34;&gt;申请友情链接&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;欢迎各位朋友来申请友情链接~&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;请确保您在申请的时候具备以下条件&amp;gt;w&amp;lt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 已经将此网站添加为友链&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 网站内容遵守法律&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 有一定的质量&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;若您已经满足以上条件，请发送评论在此页面下&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;评论格式&#34;&gt;评论格式&lt;/h4&gt;
+&lt;p&gt;网站名: SakuraSenの个人博客&lt;/p&gt;
+&lt;p&gt;介绍: 做自己喜欢的事&lt;/p&gt;
+&lt;p&gt;网站: &lt;a class=&#34;link&#34; href=&#34;https://badsen.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://badsen.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;图标链接: &lt;a class=&#34;link&#34; href=&#34;https://q2.qlogo.cn/headimg_dl?dst_uin=2402147211&amp;amp;spec=100&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://q2.qlogo.cn/headimg_dl?dst_uin=2402147211&amp;spec=100&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;发送后如果符合以上条件就一定会通过的~&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;下方是友情链接oo&#34;&gt;下方是友情链接(o゜▽゜)o☆&lt;/h1&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

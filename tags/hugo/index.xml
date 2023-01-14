@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo on SakuraSenの个人博客</title>
+        <link>https://badsen.cn/tags/hugo/</link>
+        <description>Recent content in Hugo on SakuraSenの个人博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 02 Jan 2023 03:01:19 +0800</lastBuildDate><atom:link href="https://badsen.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第一篇文章</title>
+        <link>https://badsen.cn/p/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+        <pubDate>Mon, 02 Jan 2023 03:01:19 +0800</pubDate>
+        
+        <guid>https://badsen.cn/p/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+        <description>&lt;img src="https://cdn.oss.badsen.cn/update/102826029_p0.png" alt="Featured image of post 第一篇文章" /&gt;&lt;h1 id=&#34;这是我的第一篇文章&#34;&gt;这是我的第一篇文章&lt;/h1&gt;
+&lt;p&gt;最近把博客从WordPress改为hugo了，感觉&amp;hellip;还不错？&lt;/p&gt;
+&lt;h3 id=&#34;为什么更换&#34;&gt;为什么更换？&lt;/h3&gt;
+&lt;p&gt;起因是我看到其他博客的这个主题很好看，于是我就收藏了起来，今天想着给博客换个主题，结果没想到这个主题不是WordPress的，它是Hugo的主题，目前使用还是很舒服的。&lt;/p&gt;
+&lt;h3 id=&#34;变化&#34;&gt;变化&lt;/h3&gt;
+&lt;p&gt;变化还是蛮大的，脱离了WordPress写博客变得不那么方便了，以前写博客只需要去WordPress的后台管理就行，但是Hugo并没有后台管理，所以所有的文章都是需要在网站根目录新建md文件，然后写完再用hugo构建为静态网站，但是我还是可以接受的，脱离了WordPress框架，整个网站变得轻量化了:D&lt;/p&gt;
+&lt;h3 id=&#34;以前的文章&#34;&gt;以前的文章&lt;/h3&gt;
+&lt;p&gt;以前的文章只能作废了QAQ，红豆泥私密马赛！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
